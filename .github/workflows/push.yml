@@ -11,4 +11,4 @@ jobs:
       - name: Build the Docker image
         run: |
           docker build . --file Dockerfile --tag my-image-name:$(date +%s)
-          docker push https://registry.baptisteheraud.com/v2/_catalog/my-image-name:$(date +%s)
+          docker push https://registry.baptisteheraud.com/my-ubuntu
