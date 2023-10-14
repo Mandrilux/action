@@ -11,4 +11,4 @@ jobs:
       - name: Build the Docker image
         run: |
           docker build . --file Dockerfile --tag registry.baptisteheraud.com/my-image-name:v1
-          docker push https://registry.baptisteheraud.com/my-image-name:v1
+
