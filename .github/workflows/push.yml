@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build the Docker image
         run: |
-          docker build . --file Dockerfile --tag my-image-name:v1
+          docker build . --file Dockerfile --tag https://registry.baptisteheraud.com/my-image-name:v1
           docker push https://registry.baptisteheraud.com/my-image-name:v1
